@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Page</title>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/images/store-mesh-logo-update.png" alt="Storemesh Logo" width="100%">
+        </div>
+        <nav>
+            <a href="#menu1">menu 1</a>
+            <a href="#menu2">menu 2</a>
+            <a href="#menu3">menu 3</a>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="actions">
+            <button>
+                <img src="assets/images/grid.png" width="100%" class="grid-icon" />
+            </button>
+            <button>A</button>
+        </div>
+        <div class="right-side">
+            <div class="menu-icon" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+            <div class="search-container" id="search-container">
+                <i class="bx bx-search" id="searchIcon"></i>
+                <input type="text" class="search-box" id="searchBox" placeholder="Search" />
+            </div>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="profile">
+                <span class="name">Aurora</span>
+                <span class="close-btn">&times;</span>
+            </div>
+            <h3>Filter</h3>
+            <br />
+            <select class="select-box">
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+            </select>
+            <ul>
+                <li><a href="#menu1">menu 1</a></li>
+                <li><a href="#menu2">menu 2</a></li>
+                <li><a href="#menu3">menu 3</a></li>
+            </ul>
+        </div>
+
+        <main class="content">
+            <div class="content-header">
+                <span>Data</span>
+                <select class="sort-by">
+                    <option>Sort By</option>
+                </select>
+            </div>
+            <div class="data-grid">
+                <div class="data-item"></div>
+                <div class="data-item"></div>
+                <div class="data-item"></div>
+                <div class="data-item"></div>
+                <div class="data-item"></div>
+                <div class="data-item"></div>
+                <div class="data-item"></div>
+                <div class="data-item"></div>
+            </div>
+            <div class="pagination">
+                <button disabled>&lt;</button>
+                <span>1</span>
+                <button>&gt;</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
